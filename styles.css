@@ -1,0 +1,77 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+
+}
+.container{
+    width: 800px;
+    margin: 16px auto;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.h1{
+    font-weight: bold;
+}
+nav{
+    display: inline;
+    margin-right: 30px; /*centres the lay out*/
+}
+
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav a:hover{
+    color: rgb(87, 18, 224);
+    text-decoration: underline;
+}
+nav a:active{
+    color: aqua;
+}
+nav a:visited{
+    color: black;
+}
+
+
+.title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(16, 15, 15);
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 50px 0;
+    font-weight: bold;
+    text-align: left;
+}
+
+img{
+    width: 800px;
+    height:  auto;
+    /*padding-left: 150px;*/
+}
+
+.special{
+    font-style: italic;
+    font-weight: bold;
+    background-color: gray;
+    margin-top: 30pxn;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+
+
+}
+footer{
+    font-size: 15px;
+    color: aqua;
+    background-color: black;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+span{
+    color: gray;
+    align-content: end;
+}
